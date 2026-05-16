@@ -103,6 +103,11 @@
       "domain_files": ["teso.txt"]
     },
     {
+      "name": "tencent",
+      "description": "CDN for Tencent games",
+      "domain_files": ["tencent.txt"]
+    },
+    {
       "name": "test",
       "description": "CDN for Testing, recommended to enable for additional diagnostics",
       "domain_files": ["test.txt"]

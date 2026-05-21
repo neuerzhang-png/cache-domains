@@ -2,13 +2,14 @@
 # down-update.qq.com: 主下载域名（王者荣耀等腾讯游戏）
 down-update.qq.com
 
-# 302 跳转目标：lancache-dns 只匹配逐行 hostname，不支持 *. 通配（README 通配仅用于 dnsmasq/squid 脚本）
-# 覆盖抓包发现的 8 个节点子域：
-downupdate.bytes.tcdnos.com
-downupdate.csy.tcdnos.com
-downupdate.bdy.tcdnos.com
-downupdate.aly.tcdnos.com
-downupdate.tyyy.tcdnos.com
-downupdate.ajy.tcdnos.com
-downupdate.tysjy.tcdnos.com
-downupdate.csysw.tcdnos.com
+# tcdnos.com: 腾讯 CDN 节点通配（302 跳转目标）
+# 覆盖抓包发现的全部 8 个子域：
+#   downupdate.bytes.tcdnos.com
+#   downupdate.csy.tcdnos.com
+#   downupdate.bdy.tcdnos.com
+#   downupdate.aly.tcdnos.com
+#   downupdate.tyyy.tcdnos.com
+#   downupdate.ajy.tcdnos.com
+#   downupdate.tysjy.tcdnos.com
+#   downupdate.csysw.tcdnos.com
+*.tcdnos.com

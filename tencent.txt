@@ -12,4 +12,4 @@ down-update.qq.com
 #   downupdate.ajy.tcdnos.com
 #   downupdate.tysjy.tcdnos.com
 #   downupdate.csysw.tcdnos.com
-tcdnos.com
+*.tcdnos.com

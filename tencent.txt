@@ -1,15 +1,24 @@
 # Tencent game download CDN
-# down-update.qq.com: 主下载域名（王者荣耀等腾讯游戏）
+# down-update.qq.com: 主下载源站（王者荣耀等）
 down-update.qq.com
 
+# down.qq.com: 和平 / 无畏契约 等下载源站
+down.qq.com
+
+# gcloudcdn.qq.com: GCloud 下载源站
+#   codev.gcloudcdn.qq.com   codev
+#   uam.gcloudcdn.qq.com     暗区突围
+#   lgame.gcloudcdn.qq.com   lgame
+codev.gcloudcdn.qq.com
+uam.gcloudcdn.qq.com
+lgame.gcloudcdn.qq.com
+
 # tcdnos.com: 腾讯 CDN 节点通配（302 跳转目标）
-# 覆盖抓包发现的全部 8 个子域：
-#   downupdate.bytes.tcdnos.com
-#   downupdate.csy.tcdnos.com
-#   downupdate.bdy.tcdnos.com
-#   downupdate.aly.tcdnos.com
-#   downupdate.tyyy.tcdnos.com
-#   downupdate.ajy.tcdnos.com
-#   downupdate.tysjy.tcdnos.com
-#   downupdate.csysw.tcdnos.com
+# 覆盖抓包节点，例如：
+#   down.bytes.tcdnos.com / down.ajy.tcdnos.com / down.bdy.tcdnos.com
+#   down.csysw.tcdnos.com / down.tysjy.tcdnos.com
+#   gcloud-codev.ajy.tcdnos.com / gcloud-codev.bytes.tcdnos.com
+#   uam-gcloud.bdy.tcdnos.com
+#   downupdate.{bytes,csy,bdy,aly,tyyy,ajy,tysjy,csysw}.tcdnos.com
 *.tcdnos.com
+
